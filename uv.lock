@@ -148,7 +148,7 @@ wheels = [
 
 [[package]]
 name = "dbt-common"
-version = "1.25.0"
+version = "1.25.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "agate" },
@@ -165,14 +165,14 @@ dependencies = [
     { name = "requests" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/15/1c/6837f98b328da87f96624135dcb785e25ebe2ba0f7f764308fee61d46f02/dbt_common-1.25.0.tar.gz", hash = "sha256:b65097b624e9833762a7892a6054fc6d75618bd4f7e58c6859468cefc859d40b", size = 83679, upload-time = "2025-05-20T16:11:21.599Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/57/4a/2254ed9774ec87b615d60ac344c86a9f9a86f2c8785e6779b504f0253611/dbt_common-1.25.1.tar.gz", hash = "sha256:d8c304b1996b432d4e1aa67bf5489b96adbae4aa3a08b48c999e3302ecc76e4c", size = 83772, upload-time = "2025-07-02T17:57:58.667Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/5d/04/6bf085ef439300fca6cc72b5e81b55de7fc0709155f4715f725a270feb41/dbt_common-1.25.0-py3-none-any.whl", hash = "sha256:857a206efccbe9754787f2b9baa9040ba1f1ddfd04168440224d3864e943251e", size = 85951, upload-time = "2025-05-20T16:11:20.17Z" },
+    { url = "https://files.pythonhosted.org/packages/44/45/18e45058193f60fac0198b1c142b00016cfa08b5a2f314502a87c7985c5a/dbt_common-1.25.1-py3-none-any.whl", hash = "sha256:535fe9355e63d77211ce42f9bdf44e41a3a7da8e050005f4b898e0a9e8c3989f", size = 85970, upload-time = "2025-07-02T17:57:57.172Z" },
 ]
 
 [[package]]
 name = "dbt-core"
-version = "1.10.2"
+version = "1.10.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "agate" },
@@ -198,9 +198,9 @@ dependencies = [
     { name = "sqlparse" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/12/38/e19649d58f12785476a839232c8b27b37eae4e70e3ff6af73e9425dff473/dbt_core-1.10.2.tar.gz", hash = "sha256:24115fb2d9aca8ed21135836d23d0e039517a4f1b86a2d0336a658b030fb878a", size = 889179, upload-time = "2025-06-20T19:29:44.179Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/97/7d/a594d8a58c2b3a070e01b3e2f82ca26a49627f9505a1e08c78e7eafaa01a/dbt_core-1.10.3.tar.gz", hash = "sha256:d9cd4bcc2296f10750b1ee649b162e6809f97cf838881e7f5d0e998ce820322e", size = 892162, upload-time = "2025-07-02T21:33:23.763Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a8/88/010ba93e319cfa0efbebf08ca5ba3a3f9dc20ffa1544f9f72f6733271a67/dbt_core-1.10.2-py3-none-any.whl", hash = "sha256:c86b22941d88f9c3fad1453b6e0dd6a5d06991498bc8786ca34738358e90bef1", size = 974649, upload-time = "2025-06-20T19:29:42.227Z" },
+    { url = "https://files.pythonhosted.org/packages/9c/7e/d52b6729215e0d6b9e52df6445cd2b37dbba63d5a49d28eb7aae52359b99/dbt_core-1.10.3-py3-none-any.whl", hash = "sha256:58e75978f51402e0e6a1077aa0ae8bdf991a0fc101030ebbf9c9d29fe4bf86b1", size = 977299, upload-time = "2025-07-02T21:33:22.185Z" },
 ]
 
 [[package]]
