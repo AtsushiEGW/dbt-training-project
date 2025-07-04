@@ -9,4 +9,4 @@ select
     subtotal / 100.0 as subtotal_dollars,
     tax_paid / 100.0 as tax_paid_dollars,
     order_total / 100.0 as order_total_dollars
-from {{ ref('raw_orders') }}
+from {{ source('jaffle_shop_raw', 'orders')}}
