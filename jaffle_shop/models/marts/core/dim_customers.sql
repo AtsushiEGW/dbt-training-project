@@ -6,7 +6,7 @@ customers as (
 ),
 
 orders as (
-    select * from {{ ref("fct_orders") }}
+    select * from {{ ref("fact_orders_incremental") }}
 ),
 
 customer_orders as (

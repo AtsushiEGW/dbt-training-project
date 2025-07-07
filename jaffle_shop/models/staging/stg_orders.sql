@@ -1,5 +1,5 @@
 -- models/staging/stg_orders.sql
--- 注文データのステージングモデル
+-- DuckDBのソースを参照
 
 select
     id as order_id,
@@ -9,4 +9,4 @@ select
     subtotal / 100.0 as subtotal_dollars,
     tax_paid / 100.0 as tax_paid_dollars,
     order_total / 100.0 as order_total_dollars
-from {{ source('jaffle_shop_raw', 'orders')}}
+from {{ source('jaffle_shop_raw', 'orders') }}

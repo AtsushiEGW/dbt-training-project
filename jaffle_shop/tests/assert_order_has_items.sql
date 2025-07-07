@@ -25,4 +25,5 @@ orders_without_items as (
     where oi.order_id is null
 )
 
-select * from orders_without_items
+select *
+from orders_without_items
